@@ -27,6 +27,10 @@ public:
 
     polygon(std::vector<point> &arr_);
 
+    virtual std::string get_name();
+
+    virtual int get_id();
+
     friend std::ostream &operator<<(std::ostream &out, const polygon &polygon_);
 };
 
